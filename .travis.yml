@@ -46,33 +46,33 @@ script: "./nightly.sh"
 matrix:
   include:
     - env:
-      - REMOTE="apache"
-      - BRANCH="master"
+      - REMOTE="zentol"
+      - BRANCH="9861"
       - PROFILE="-Dhadoop.version=2.8.3"
       - SCRIPT="split_misc.sh"
     - env:
-      - REMOTE="apache"
-      - BRANCH="master"
+      - REMOTE="zentol"
+      - BRANCH="9861"
       - PROFILE="-Dhadoop.version=2.8.3"
       - SCRIPT="split_ha.sh"
     - env:
-      - REMOTE="apache"
-      - BRANCH="master"
+      - REMOTE="zentol"
+      - BRANCH="9861"
       - PROFILE="-Dhadoop.version=2.8.3"
       - SCRIPT="split_sticky.sh"
     - env:
-      - REMOTE="apache"
-      - BRANCH="master"
+      - REMOTE="zentol"
+      - BRANCH="9861"
       - PROFILE="-Dhadoop.version=2.8.3"
       - SCRIPT="split_checkpoints.sh"
     - env:
-      - REMOTE="apache"
-      - BRANCH="master"
+      - REMOTE="zentol"
+      - BRANCH="9861"
       - PROFILE="-Dhadoop.version=2.8.3"
       - SCRIPT="split_docker_e2e.sh"
     - env:
-      - REMOTE="apache"
-      - BRANCH="master"
+      - REMOTE="zentol"
+      - BRANCH="9861"
       - PROFILE="-Dhadoop.version=2.8.3"
       - SCRIPT="split_kubernetes_e2e.sh"
 
